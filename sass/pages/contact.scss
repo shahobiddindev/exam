@@ -1,0 +1,27 @@
+@use "../global";
+@use "../utils/_variables.scss";
+
+
+
+
+
+
+.offcanvas {
+	background-color: $background-color_3;
+}
+.map__container {
+	h2 {
+		text-align: center;
+		padding-top: 110px;
+		padding-bottom: 40px;
+		font-family: $font-family_1;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 38px;
+		line-height: 130%;
+		letter-spacing: .03em;
+		text-transform: capitalize;
+		font-feature-settings: "tnum" on,"lnum" on;
+		color: $color_1;
+	}
+}

@@ -1,0 +1,20 @@
+
+.navbar {
+	background-color: $background-color_1 !important;
+	.nav-item {
+		a {
+			font-family: $font-family_1;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 22px;
+			letter-spacing: .04em;
+			color: $color_1 !important;
+		}
+	}
+}
+@media (max-width:992px){
+   .list__index{
+      display: none;
+   }
+}

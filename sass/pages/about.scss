@@ -1,0 +1,45 @@
+@use "../_global.scss";
+@use "../utils/_variables.scss";
+
+.offcanvas {
+	background-color: $background-color_1;
+}
+.about__container {
+	.about__container__title {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 120px;
+		>img {
+			transform: rotate(180deg);
+			margin-bottom: 40px;
+		}
+		h2 {
+			font-family: $font-family_1;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 64px;
+			letter-spacing: .03em;
+			text-transform: capitalize;
+			font-feature-settings: "tnum" on,"lnum" on;
+			color: $color_1;
+		}
+	}
+	.about__conatiner__footer {
+		>img {
+			width: 100%;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		p {
+			font-family: $font-family_2;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 32px;
+			letter-spacing: .04em;
+			color: $color_1;
+		}
+	}
+}

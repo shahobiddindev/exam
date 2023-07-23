@@ -1,0 +1,22 @@
+#backtop {
+
+   height: 50px;
+   width: 50px;
+   position: fixed;
+   bottom: -50px;
+   right: 30px;
+   font-size: 25px;
+   border-radius: 50%;
+   color: #fff;
+   z-index: 99;
+   background-color: var(--backtop-bg-color);
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   transition: .5s;
+   -webkit-transition: .5s;
+   -moz-transition: .5s;
+   -ms-transition: .5s;
+   -o-transition: .5s
+}
